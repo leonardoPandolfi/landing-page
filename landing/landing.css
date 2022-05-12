@@ -1,25 +1,29 @@
 body,
 html {
   margin: 0;
-  background: rgb(102, 101, 102);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to left , rgb(108, 107, 107) ,rgb(43, 43, 43));
+  font-family: Verdana, Tahoma, sans-serif;
 }
 .container {
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  margin-top: 5em;
   display: flex;
   flex-direction: row;
   align-items: center;
+
   
 }
 .formulario {
   width: 50vw;
+  align-items: center;
 }
 .textoheader {
   text-transform: uppercase;
   text-align: center;
   color: white;
   width: 50vw;
+  
 }
 
 p {
@@ -59,9 +63,10 @@ form input[type="submit"] {
   border: 0;
   color: white;
   transition: 0.5s;
+  font-family:'Times New Roman', Times, serif
 }
 form input[type="submit"]:hover {
-  background: rgb(255, 255, 255);
+  background: rgb(79, 77, 77);
 }
 form input[type="text"],
 form input[type="email"]:focus {
